@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:name="+id/mainupperactionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="27"
+        >
+        
+    </LinearLayout>
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_weight="80">
+
+            <Button
+                android:name="+id/receivebutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_receive"
+                >
+            </Button>
+        >
+        </TableRow>
+        
+        <TableRow 
+            android:layout_weight="80">
+            <Button
+                android:name="+id/sendbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_send"
+                >
+                
+            </Button>
+          </TableRow>
+          
+        <TableRow 
+            android:layout_weight="80">
+            <Button 
+                android:name="+id/owebutton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_owe"
+                />
+            <Button 
+                android:name="id/menubtn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_menu"
+                />
+        </TableRow>
+        
+        <TableRow 
+            android:layout_weight="80">
+            <Button 
+                android:name="+id/commitbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_commit"
+                />
+            <Button 
+                android:name="id/helpbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_help"
+                />
+        </TableRow>
+          
+    </TableLayout>
+    
+    <LinearLayout 
+        android:name="+id/mainbottomactionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="32"
+        >
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
